@@ -1,11 +1,331 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AfriconnectSummit</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AfriconnectSummit</title>
 </head>
+
 <body>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AfriConnect Summit 2026 | Accueil</title>
+  <meta name="description"
+    content="AfriConnect Summit 2026 - Le rendez-vous panafricain de la tech, de l'innovation et de l'entrepreneuriat.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="index.html" class="logo" aria-label="Accueil AfriConnect Summit">
+          <img src="img/logo.jpg.png" alt="log" width="80" height="auto">
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">
+          <i class="bi bi-list"></i>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-links">
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="intervenants.html">Intervenants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+          <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre mode clair et sombre">
+            <i class="bi bi-moon-stars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text fade-in">
+            <span class="hero-badge">Édition 2026 · Dakar, Sénégal</span>
+            <h1>Connecter l’Afrique qui code, entreprend et innove.</h1>
+            <p>
+              AfriConnect Summit réunit développeurs, entrepreneurs, designers,
+              investisseurs et leaders de l’innovation pour 3 jours d’échanges,
+              d’inspiration et d’opportunités à l’échelle du continent.
+            </p>
+
+            <div class="hero-actions">
+              <a href="contact.html" class="btn btn-primary">Réserver ma place</a>
+              <a href="programme.html" class="btn btn-secondary">Voir le programme</a>
+            </div>
+          </div>
+
+          <div class="hero-card slide-in">
+            <div class="event-mini-card">
+              <p class="mini-label">Prochain rendez-vous</p>
+              <h2>AfriConnect Summit 2026</h2>
+              <p>14, 15 et 16 novembre 2026 · Centre International de Conférences de Dakar</p>
+
+              <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                  <span id="days">00</span>
+                  <small>Jours</small>
+                </div>
+                <div class="countdown-item">
+                  <span id="hours">00</span>
+                  <small>Heures</small>
+                </div>
+                <div class="countdown-item">
+                  <span id="minutes">00</span>
+                  <small>Minutes</small>
+                </div>
+                <div class="countdown-item">
+                  <span id="seconds">00</span>
+                  <small>Secondes</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-kicker">L’événement en chiffres</span>
+            <h2>Un sommet panafricain à fort impact</h2>
+            <p>
+              Une conférence pensée pour rassembler les talents, les idées et les
+              opportunités autour de l’innovation africaine.
+            </p>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card reveal">
+              <h3 class="counter" data-target="1200">0</h3>
+              <p>Participants attendus</p>
+            </article>
+
+            <article class="stat-card reveal">
+              <h3 class="counter" data-target="48">0</h3>
+              <p>Intervenants internationaux</p>
+            </article>
+
+            <article class="stat-card reveal">
+              <h3 class="counter" data-target="3">0</h3>
+              <p>Jours de conférences</p>
+            </article>
+
+            <article class="stat-card reveal">
+              <h3 class="counter" data-target="12">0</h3>
+              <p>Pays représentés</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-attend section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-kicker">Pourquoi participer ?</span>
+            <h2>Un espace où la tech rencontre l’ambition africaine</h2>
+          </div>
+
+          <div class="why-grid">
+            <article class="why-card reveal">
+              <div class="why-icon">
+                <i class="bi bi-lightbulb"></i>
+              </div>
+              <h3>Apprendre des meilleurs</h3>
+              <p>
+                Assistez à des conférences, panels et masterclasses animés par des
+                experts de la tech, de la data, du design et du business africain.
+              </p>
+            </article>
+
+            <article class="why-card reveal">
+              <div class="why-icon">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3>Développer son réseau</h3>
+              <p>
+                Rencontrez des fondateurs, recruteurs, investisseurs et étudiants
+                venus de plusieurs pays pour créer des connexions utiles.
+              </p>
+            </article>
+
+            <article class="why-card reveal">
+              <div class="why-icon">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <h3>Faire avancer ses projets</h3>
+              <p>
+                Découvrez des opportunités concrètes, des retours d’expérience et
+                des pistes de collaboration pour vos projets ou votre carrière.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-speakers section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-kicker">Têtes d’affiche</span>
+            <h2>Quelques intervenants à ne pas manquer</h2>
+          </div>
+
+          <div class="speakers-grid">
+            <article class="speaker-card reveal">
+              <img src="img/image.jpg1.jpg" alt="Portrait de Fatima Ndiaye, experte IA">
+              <div class="speaker-info">
+                <h3>Fatima Ndiaye</h3>
+                <p>Experte IA & Innovation</p>
+                <span>Sénégal</span>
+              </div>
+            </article>
+
+            <article class="speaker-card reveal">
+              <img src="img/image.jpg2.jpg"alt="Portrait de Kevin Mensah, entrepreneur tech">
+              <div class="speaker-info">
+                <h3>Kevin Mensah</h3>
+                <p>Entrepreneur Tech</p>
+                <span>Ghana</span>
+              </div>
+            </article>
+
+            <article class="speaker-card reveal">
+              <img src="img/image.jpg3.jpg" alt="Portrait de Nadia Benali, spécialiste design produit">
+              <div class="speaker-info">
+                <h3>Nadia Benali</h3>
+                <p>Design Produit</p>
+                <span>Maroc</span>
+              </div>
+            </article>
+
+            <article class="speaker-card reveal">
+              <img src="img/image.jpg4.jpg" alt="Portrait de Samuel Koffi, data strategist">
+              <div class="speaker-info">
+                <h3>Samuel Koffi</h3>
+                <p>Data Strategist</p>
+                <span>Côte d’Ivoire</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="section-action reveal">
+            <a href="intervenants.html" class="btn btn-primary">Découvrir tous les intervenants</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="sponsors section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-kicker">Partenaires</span>
+            <h2>Ils soutiennent l’édition 2026</h2>
+          </div>
+
+          <div class="sponsor-levels">
+            <div class="sponsor-group gold reveal">
+              <h3>Or</h3>
+              <div class="sponsor-logos">
+                <span>Wave Africa</span>
+                 <img src="img/logo.jpg1.jpg" alt="log" width="150">
+                <span>Orange Digital Center</span>
+               <img src="img/logo.jpg2.jpg" alt="log" width="150">
+            </div>
+
+            <div class="sponsor-group silver reveal">
+              <h3>Argent</h3>
+              <div class="sponsor-logos">
+                <span>Flutter Africa</span>
+                <img src="img/logo.jpg3.jpg" alt="log" width="150">
+                <span>TechBridge VC</span>
+                <img src="img/logo.jpg4.jpg" alt="log" width="150">
+                <span>AfriCloud</span>
+                <img src="img/logo.jpg5.jpg" alt="log" width="150">
+              </div>
+            </div>
+
+            <div class="sponsor-group bronze reveal">
+              <h3>Bronze</h3>
+              <div class="sponsor-logos">
+                <span>DevHub</span>
+                 <img src="img/logo.jpg6.jpg" alt="log" width="150">
+                <span>SeedLab</span>
+                 <img src="img/logo.jpg7.jpg" alt="log" width="150">
+                <span>StartUp House</span>
+                 <img src="img/logo.jpg8.jpg" alt="log" width="150">
+                <span>Women in Product Africa</span>
+                 <img src="img/logo.jpg9.jpg" alt="log" width="150">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+ 
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>AfriConnect Summit</h3>
+          <p>
+            Le rendez-vous panafricain des développeurs, créateurs, investisseurs
+            et leaders de l’innovation.
+          </p>
+        </div>
+
+        <div>
+          <h3>Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="intervenants.html">Intervenants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Suivez-nous</h3>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Twitter X"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom container">
+        <p>&copy; <span class="current-year"></span> AfriConnect Summit. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
 </body>
+
 </html>

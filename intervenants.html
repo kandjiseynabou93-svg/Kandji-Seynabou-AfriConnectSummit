@@ -6,6 +6,232 @@
     <title>AfriconnectSummit</title>
 </head>
 <body>
-    
+    <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+       HEADER / NAVBAR
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo" aria-label="Accueil AfriConnect Summit">
+        <span>AfriConnect</span> Summit 2026
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="intervenants.html" class="active">Intervenants</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre mode clair et sombre">
+          <i class="bi bi-moon-stars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+       MAIN
+  <main>
+
+    <!-- HERO INTERNE -->
+    <section class="page-hero">
+      <div class="container page-hero-content">
+        <div class="reveal">
+          <p class="breadcrumb">
+            <a href="index.html">Accueil</a>
+            <span>></span>
+            <span>Intervenants</span>
+          </p>
+          <span class="section-kicker">Nos speakers</span>
+          <h1>Des profils inspirants venus de tout le continent</h1>
+          <p>
+            Entrepreneurs, experts en intelligence artificielle, designers, leaders
+            produit, spécialistes data et investisseurs se réunissent à Dakar pour
+            partager leurs idées, leurs expériences et leur vision du futur.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="speakers-section section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Filtrer les profils</span>
+          <h2>Explorez les intervenants par thématique</h2>
+          <p>
+            Utilisez les filtres pour afficher uniquement les intervenants liés à
+            une catégorie : IA & Tech, Business, Design ou Data.
+          </p>
+        </div>
+
+        <div class="speaker-filters reveal">
+          <button class="filter-btn active" data-filter="all">Tous</button>
+          <button class="filter-btn" data-filter="ia-tech">IA & Tech</button>
+          <button class="filter-btn" data-filter="business">Business</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+          <button class="filter-btn" data-filter="data">Data</button>
+        </div>
+
+        <div class="speakers-grid all-speakers-grid">
+
+          <article class="speaker-card reveal filter-card" data-category="ia-tech">
+            <img src="img/image.jpg1.jpg" alt="Portrait de Arame Soumare, experte en intelligence artificielle">
+            <div class="speaker-info">
+              <h3>Arame Soumare</h3>
+              <p>Experte IA & Innovation</p>
+              <span>Sénégal</span>
+            </div>
+          </article>
+
+          <article class="speaker-card reveal filter-card" data-category="business">
+            <img src="img/image.jpg2.jpg" alt="Portrait de Kevin Mensah, entrepreneur tech">
+            <div class="speaker-info">
+              <h3>Kevin Mensah</h3>
+              <p>Entrepreneur Tech & Growth</p>
+              <span>Ghana</span>
+            </div>
+          </article>
+
+          <article class="speaker-card reveal filter-card" data-category="design">
+            <img src="img/image.jpg3.jpg" alt="Portrait de Nadia Benali, designer produit">
+            <div class="speaker-info">
+              <h3>Nadia Benali</h3>
+              <p>Lead Product Designer</p>
+              <span>Maroc</span>
+            </div>
+          </article>
+
+          <article class="speaker-card reveal filter-card" data-category="data">
+            <img src="img/image.jpg4.jpg" alt="Portrait de Samuel Koffi, spécialiste data">
+            <div class="speaker-info">
+              <h3>Samuel Koffi</h3>
+              <p>Data Strategist</p>
+              <span>Côte d’Ivoire</span>
+            </div>
+          </article>
+
+          <article class="speaker-card reveal filter-card" data-category="business">
+            <img src="img/image.jpg5.jpg" alt="Portrait de Linda Okoro, spécialiste fintech">
+            <div class="speaker-info">
+              <h3>Linda Okoro</h3>
+              <p>CEO Fintech & Venture Builder</p>
+              <span>Nigeria</span>
+            </div>
+          </article>
+
+          <article class="speaker-card reveal filter-card" data-category="ia-tech">
+            <img src="img/image.jpg6.jpg" alt="Portrait de Yao Amani, expert cybersécurité">
+            <div class="speaker-info">
+              <h3>Yao Amani</h3>
+              <p>Consultant Cybersécurité</p>
+              <span>Togo</span>
+            </div>
+          </article>
+
+          <article class="speaker-card reveal filter-card" data-category="design">
+            <img src="img/image.jpg7.jpg" alt="Portrait de Rania El Idrissi, spécialiste UX">
+            <div class="speaker-info">
+              <h3>Rania El Idrissi</h3>
+              <p>UX Researcher & Design Ops</p>
+              <span>Maroc</span>
+            </div>
+          </article>
+
+          <article class="speaker-card reveal filter-card" data-category="data">
+            <img src="img/image.jpg8.jpg" alt="Portrait de Fatou Mbaye, analyste data">
+            <div class="speaker-info">
+              <h3>Fatou Mbaye</h3>
+              <p>Data Analyst & BI Consultant</p>
+              <span>Sénégal</span>
+            </div>
+          </article>
+
+          <article class="speaker-card reveal filter-card" data-category="ia-tech">
+            <img src="img/image.jpg9.jpg" alt="Portrait de Chinedu Okafor, ingénieur cloud">
+            <div class="speaker-info">
+              <h3>Chinedu Okafor</h3>
+              <p>Cloud Engineer & DevOps Mentor</p>
+              <span>Nigeria</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <section class="cta-banner section">
+      <div class="container">
+        <div class="cta-banner-content reveal">
+          <div>
+            <span class="section-kicker">Prêt à participer ?</span>
+            <h2>Réservez votre place pour rencontrer ces experts</h2>
+            <p>
+              Rejoignez une communauté de passionnés, d’entrepreneurs, de créateurs
+              et de décideurs qui façonnent l’avenir du numérique africain.
+            </p>
+          </div>
+          <a href="contact.html" class="btn btn-primary">S’inscrire maintenant</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>AfriConnect Summit</h3>
+        <p>
+          Le rendez-vous panafricain des développeurs, créateurs, investisseurs
+          et leaders de l’innovation.
+        </p>
+      </div>
+
+      <div>
+        <h3>Navigation</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="intervenants.html">Intervenants</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Suivez-nous</h3>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="Twitter X"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; <span class="current-year"></span> AfriConnect Summit. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Bouton retour en haut -->
+  <button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

@@ -6,6 +6,329 @@
     <title>AfriconnectSummit</title>
 </head>
 <body>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo" aria-label="Accueil AfriConnect Summit">
+        <span>AfriConnect</span> Summit 2026
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="programme.html" class="active">Programme</a></li>
+          <li><a href="intervenants.html">Intervenants</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre mode clair et sombre">
+          <i class="bi bi-moon-stars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
     
+    <main>
+
+    <section class="page-hero">
+      <div class="container page-hero-content">
+        <div class="reveal">
+          <p class="breadcrumb">
+            <a href="index.html">Accueil</a>
+            <span>></span>
+            <span>Programme</span>
+          </p>
+          <span class="section-kicker">Agenda officiel</span>
+          <h1>Le programme du sommet</h1>
+          <p>
+            Trois journées de conférences, panels, retours d’expérience, ateliers
+            et rencontres pour explorer les enjeux de la tech, de la data, du design
+            et de l’entrepreneuriat en Afrique.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="program-section section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Planning des sessions</span>
+          <h2>3 jours pour apprendre, échanger et créer des opportunités</h2>
+          <p>
+            Consultez le détail des sessions par journée. Cliquez sur un onglet
+            pour afficher le programme correspondant sans recharger la page.
+          </p>
+        </div>
+
+        <div class="program-tabs reveal">
+          <button class="tab-btn active" data-tab="day1">Jour 1</button>
+          <button class="tab-btn" data-tab="day2">Jour 2</button>
+          <button class="tab-btn" data-tab="day3">Jour 3</button>
+        </div>
+        <div class="tab-content active reveal" id="day1">
+          <div class="table-wrapper">
+            <table class="program-table">
+              <thead>
+                <tr>
+                  <th>Heure</th>
+                  <th>Session</th>
+                  <th>Intervenant</th>
+                  <th>Salle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>09:00</td>
+                  <td>Ouverture officielle & keynote d’introduction</td>
+                  <td>Amina Diop</td>
+                  <td>Auditorium Baobab</td>
+                </tr>
+                <tr>
+                  <td>10:30</td>
+                  <td>L’IA au service des entreprises africaines</td>
+                  <td>Samuel Koffi</td>
+                  <td>Salle Innovation</td>
+                </tr>
+                <tr>
+                  <td>12:00</td>
+                  <td>Créer une startup tech durable en Afrique</td>
+                  <td>Kevin Mensah</td>
+                  <td>Salle Impact</td>
+                </tr>
+                <tr>
+                  <td>14:00</td>
+                  <td>Design produit : construire pour les vrais usages</td>
+                  <td>Nadia Benali</td>
+                  <td>Studio UX</td>
+                </tr>
+                <tr>
+                  <td>16:00</td>
+                  <td>Networking founders & investisseurs</td>
+                  <td>Panel multi-intervenants</td>
+                  <td>Lounge Connect</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+    
+        <div class="tab-content reveal" id="day2">
+          <div class="table-wrapper">
+            <table class="program-table">
+              <thead>
+                <tr>
+                  <th>Heure</th>
+                  <th>Session</th>
+                  <th>Intervenant</th>
+                  <th>Salle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>09:00</td>
+                  <td>Data & décision : comment piloter avec les bons indicateurs</td>
+                  <td>Fatou Mbaye</td>
+                  <td>Auditorium Baobab</td>
+                </tr>
+                <tr>
+                  <td>10:45</td>
+                  <td>Cybersécurité : protéger les plateformes africaines à grande échelle</td>
+                  <td>Yao Amani</td>
+                  <td>Salle Sécurité</td>
+                </tr>
+                <tr>
+                  <td>12:30</td>
+                  <td>Fintech & inclusion : nouveaux usages, nouveaux défis</td>
+                  <td>Linda Okoro</td>
+                  <td>Salle Impact</td>
+                </tr>
+                <tr>
+                  <td>14:30</td>
+                  <td>Construire un produit avec une équipe distribuée</td>
+                  <td>Rania El Idrissi</td>
+                  <td>Studio UX</td>
+                </tr>
+                <tr>
+                  <td>16:30</td>
+                  <td>Pitch session : startups à suivre en 2026</td>
+                  <td>Jury AfriConnect</td>
+                  <td>Scène Horizon</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="tab-content reveal" id="day3">
+          <div class="table-wrapper">
+            <table class="program-table">
+              <thead>
+                <tr>
+                  <th>Heure</th>
+                  <th>Session</th>
+                  <th>Intervenant</th>
+                  <th>Salle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>09:30</td>
+                  <td>Le futur du cloud et des infrastructures africaines</td>
+                  <td>Malick Sarr</td>
+                  <td>Auditorium Baobab</td>
+                </tr>
+                <tr>
+                  <td>11:00</td>
+                  <td>Women in Tech : leadership, carrière et impact</td>
+                  <td>Panel invité</td>
+                  <td>Salle Impact</td>
+                </tr>
+                <tr>
+                  <td>13:00</td>
+                  <td>Atelier pratique : lancer son MVP en 30 jours</td>
+                  <td>Chinedu Okafor</td>
+                  <td>Lab Produit</td>
+                </tr>
+                <tr>
+                  <td>15:00</td>
+                  <td>Investir dans les talents et l’innovation locale</td>
+                  <td>Mariam Faye</td>
+                  <td>Salle Invest</td>
+                </tr>
+                <tr>
+                  <td>17:00</td>
+                  <td>Cérémonie de clôture & annonces 2027</td>
+                  <td>Équipe AfriConnect</td>
+                  <td>Scène Horizon</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="topics section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Thématiques</span>
+          <h2>Les grands axes de l’édition 2026</h2>
+          <p>
+            AfriConnect Summit met en lumière les enjeux les plus actuels de
+            l’écosystème numérique africain à travers 4 grandes thématiques.
+          </p>
+        </div>
+
+        <div class="topics-grid">
+          <article class="topic-card reveal">
+            <div class="topic-icon">
+              <i class="bi bi-cpu"></i>
+            </div>
+            <h3>IA & Technologies émergentes</h3>
+            <p>
+              Intelligence artificielle, automatisation, cloud, cybersécurité et
+              outils qui transforment les usages et les entreprises.
+            </p>
+          </article>
+
+          <article class="topic-card reveal">
+            <div class="topic-icon">
+              <i class="bi bi-briefcase"></i>
+            </div>
+            <h3>Business & Entrepreneuriat</h3>
+            <p>
+              Stratégie produit, levée de fonds, croissance, innovation locale et
+              construction de modèles économiques durables.
+            </p>
+          </article>
+
+          <article class="topic-card reveal">
+            <div class="topic-icon">
+              <i class="bi bi-palette"></i>
+            </div>
+            <h3>Design & Expérience utilisateur</h3>
+            <p>
+              Recherche utilisateur, design systems, accessibilité et création
+              d’interfaces adaptées aux réalités africaines.
+            </p>
+          </article>
+
+          <article class="topic-card reveal">
+            <div class="topic-icon">
+              <i class="bi bi-bar-chart-line"></i>
+            </div>
+            <h3>Data & Prise de décision</h3>
+            <p>
+              Analyse de données, tableaux de bord, métriques d’impact et culture
+              data au service des organisations et des startups.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+ 
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>AfriConnect Summit</h3>
+        <p>
+          Le rendez-vous panafricain des développeurs, créateurs, investisseurs
+          et leaders de l’innovation.
+        </p>
+      </div>
+
+      <div>
+        <h3>Navigation</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="intervenants.html">Intervenants</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Suivez-nous</h3>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="Twitter X"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; <span class="current-year"></span> AfriConnect Summit. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Bouton retour en haut -->
+  <button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
 </body>
 </html>
